@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import selectorDeslizamiento.SelectorDeslizamientoController?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="163.0" prefWidth="228.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusoselector.APPUsoSelectorControllerController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="156.0" prefWidth="222.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <SelectorDeslizamientoController fx:id="selectorArriba" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="52.0" prefWidth="153.0" />
+            <SelectorDeslizamientoController fx:id="selectorAbajo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="150.0" />
+            <Label fx:id="label" prefHeight="17.0" prefWidth="154.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
